@@ -1,0 +1,129 @@
+@media (min-width: 992px){
+    .container {
+        max-width: 1360px;
+    }
+
+    .mini-container {
+        max-width: 1130px;
+    }
+}
+
+
+@media (max-width: 1199.98px) {
+    .header__menu .menu__items {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .header__menu .menu__link {
+        font-size: 11px;
+        margin: 0 -3px;
+    }
+    .logo img {
+        max-width: 120px;
+    }
+    .header__tools > * {
+        margin: 0;
+    }
+    .about__info__text {
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    .about__info__text h1 {
+        margin-bottom: 20px;
+    }
+    .margin-tp {
+        margin-top: 20px;
+    }
+    .benefits__text {
+        margin-top: 40px;
+    }
+    .about__plus__text {
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    .about__plus__text h3 {
+        max-width: unset;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+    }
+    .navbar-toggle{
+        display: block;
+    }
+    .header__menu {
+        position: absolute;
+        background: #fff;
+        left: 0;
+        right: 0;
+        top: 100%;
+        display: none;
+        padding: 10px 0;
+    }
+    .menu {
+        display: block;
+    }
+    .page__header .row>div {
+        position: static;
+    }
+    .header__menu .menu__link {
+        display: block;
+        margin: 0;
+        padding: 8px 0px;
+        text-align: center;
+    }
+    .header__menu .menu__items {
+        margin: 0;
+    }
+    .header__logo {
+        text-align: center;
+    }
+    .logo img {
+        max-width: unset;
+    }
+    .about__info img {
+        max-width: 115%;
+        margin-right: 0;
+    }
+    .socials {
+        margin-bottom: 20px;
+    }
+    .productSlider .swiper-slide {
+        width: calc( 50% - 20px );
+    }
+    .footer__title {
+        margin-top: 30px;
+    }
+    .footer-back {
+        right: 0;
+        left: 0;
+        justify-content: center;
+        top: unset;
+        bottom: -71px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .ad-sale__text p {
+        font-size: 12px;
+    }
+    .benefits__text {
+        max-width: 100%;
+    }
+    .about__plus__text h3 {
+        font-size: 29px;
+    }
+    .footer__top {
+        padding: 40px 0 0 0;
+    }
+}
+@media (max-width: 430px) {
+    .header__tools .search, .header__tools .profile {
+        display: none;
+    }
+}
